@@ -26,6 +26,9 @@ Langkah 2 Implementasi sederhana tanpa penanganan error.
 sedangkan Langkah 5 dan 6 Implementasi lebih lengkap dengan penanganan error dan pengelolaan hasil di UI.
 ![Secreenshot yuda1](image/W11-soal6.png)
 
+setelah memencet tombol GO! langsunng muncul angka 6 setelah 3 detik lebih cepat dari sebelumnya
+![Secreenshot yuda1](image/W11-soal7.png)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
