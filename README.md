@@ -46,6 +46,23 @@ Langkah 4 memperkenalkan penanganan error yang lebih robust menggunakan try-catc
 yang dilemparkan oleh returnError(), tetapi juga memberikan cara untuk memastikan bahwa bagian tertentu dari kode dijalankan meskipun terjadi error melalui blok finally.
 
 
+soal 11
+![Secreenshot yuda1](image/W11-soal11.png)
+
+soal 12
+![gif yuda](./image/W11-soal12.gif)
+setelah saya mencoba ke browser masih mendapatkan koordinatnya, karena sebelumnya saya sudah menginstall geolocation terlebih dahulu
+sehingga browser bisa mendapatkan koordinat lokasinya
+![Secreenshot yuda1](image/W11-soal12.png)
+
+soal 13
+tidak ada perbedaan dari yang sebelumnya, perbedaannya cuman di bagian delay di "delayed(const Duration(seconds: 3));"
+yang menunjukkan menunggu loading selama 3 detik kemudian baru bisa mendapatkan koordinat lokasinya
+![Secreenshot yuda1](image/W11-soal13.png)
+
+
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
