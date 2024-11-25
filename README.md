@@ -16,6 +16,12 @@ kode await digunakan untuk menunggu hingga fungsi selesai dijalankan sebelum mel
 pada langkah 2, returnTwoAsync dipanggil secara asinkron Sama seperti sebelumnya, fungsi ini menunggu 3 detik Future.delayed sebelum mengembalikan nilai 2.
 ![Secreenshot yuda1](image/W11-soal4.png)
 
+Completer, objek yang digunakan untuk mengontrol penyelesaian completion Future secara manual. Pada baris sebelumnya,
+instance Completer<int> dibuat dan dihubungkan dengan Future melalui properti ompleter.future.
+calculate() memulai perhitungan menunggu 5 detik, Setelah 5 detik completer.complete(42) menyelesaikan Future dengan nilai 42.
+kemudian kode yang menunggu hasil dari getNumber() akan menerima nilai 42 setelah penyelesaian.
+![Secreenshot yuda1](image/W11-soal5.png)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
