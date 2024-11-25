@@ -22,6 +22,10 @@ calculate() memulai perhitungan menunggu 5 detik, Setelah 5 detik completer.comp
 kemudian kode yang menunggu hasil dari getNumber() akan menerima nilai 42 setelah penyelesaian.
 ![Secreenshot yuda1](image/W11-soal5.png)
 
+Langkah 2 Implementasi sederhana tanpa penanganan error.
+sedangkan Langkah 5 dan 6 Implementasi lebih lengkap dengan penanganan error dan pengelolaan hasil di UI.
+![Secreenshot yuda1](image/W11-soal6.png)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
