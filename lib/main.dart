@@ -53,39 +53,23 @@ class _FuturePageState extends State<FuturePage> {
             const Spacer(),
             ElevatedButton(
               child: const Text('GO!'),
-              onPressed: () async {
-                setState(() {
-                  result = 'Loading...';
+              onPressed: (){
+                setState(() {});
+                getData().then((value) {result = value.body.toString().substring(0, 450);
+                setState(() {});
+                }).catchError((_){
+                  result = 'An error occurred';
+                  setState(() {});
                 });
-
-                try {
-                  http.Response response = await getData();
-                  if (response.statusCode == 200) {
-                    setState(() {
-                      result = response.body;
-                    });
-                  } else {
-                    setState(() {
-                      result =
-                      'Failed to fetch data: ${response.statusCode}';
-                    });
-                  }
-                } catch (e) {
-                  setState(() {
-                    result = 'Error: $e';
-                  });
-                }
               },
             ),
+
             const Spacer(),
-            Text(
-              result,
-              textAlign: TextAlign.center,
-            ),
+            Text(result),
             const Spacer(),
             const CircularProgressIndicator(),
             const Spacer(),
-          ],
+          ]
         ),
       ),
     );

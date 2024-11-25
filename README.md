@@ -3,7 +3,13 @@
 A new Flutter project.
 
 praktikum 1 hasil dari mengambil data buku dari google books
-![Secreenshot yuda1](image/soal2.png)
+![Secreenshot yuda1](image/W11-soal2.png)
+
+maksud dari substring mengurangi string dari value.body untuk mengambil 450 karater pertama,
+sehingga teks yang di tampilkan bisa di batas hingga 450 teks saja.
+sedangkan untuk catchError yaitu untuk menangani kesalahan error yang terjadi selama pemangilan fungsi dari asinkron getData,
+jika getData() gagal, blok catchError akan dipanggil.
+![Secreenshot yuda1](image/W11-soal3.png)
 
 ## Getting Started
 
