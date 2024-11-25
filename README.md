@@ -11,6 +11,11 @@ sedangkan untuk catchError yaitu untuk menangani kesalahan error yang terjadi se
 jika getData() gagal, blok catchError akan dipanggil.
 ![Secreenshot yuda1](image/W11-soal3.png)
 
+pada langkah 1, Fungsi returnOneAsync dipanggil secara asinkron, Fungsi ini menunggu selama 3 detik Future.delayed sebelum mengembalikan nilai 1.
+kode await digunakan untuk menunggu hingga fungsi selesai dijalankan sebelum melanjutkan ke baris berikutnya.
+pada langkah 2, returnTwoAsync dipanggil secara asinkron Sama seperti sebelumnya, fungsi ini menunggu 3 detik Future.delayed sebelum mengembalikan nilai 2.
+![Secreenshot yuda1](image/W11-soal3.png)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
