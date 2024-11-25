@@ -38,6 +38,14 @@ membuatnya lebih mudah dipahami dan digunakan dalam kasus sederhana.
 output soal 9
 ![Secreenshot yuda1](image/W11-soal9.png)
 
+output soal 10
+![Secreenshot yuda1](image/W11-soal10.png)
+Langkah 1 menunjukkan bagaimana cara melemparkan error dalam sebuah fungsi asinkron, 
+namun tidak menangani atau mengelola error tersebut karena Fungsi ini hanya berfokus pada pembuatan error.
+Langkah 4 memperkenalkan penanganan error yang lebih robust menggunakan try-catch-finally. Fungsi ini tidak hanya menangani error 
+yang dilemparkan oleh returnError(), tetapi juga memberikan cara untuk memastikan bahwa bagian tertentu dari kode dijalankan meskipun terjadi error melalui blok finally.
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
