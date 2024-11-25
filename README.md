@@ -60,7 +60,8 @@ tidak ada perbedaan dari yang sebelumnya, perbedaannya cuman di bagian delay di 
 yang menunjukkan menunggu loading selama 3 detik kemudian baru bisa mendapatkan koordinat lokasinya
 ![Secreenshot yuda1](image/W11-soal13.png)
 
-
+soal 14
+tampilan masih sama, bedanya cuman menambah snapshot.connectionState untuk menangani ketika terjadi error.
 
 
 ## Getting Started
