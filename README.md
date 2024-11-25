@@ -35,6 +35,9 @@ namun membutuhkan lebih banyak kode dan langkah-langkah tambahan.
 Langkah 4 Menggunakan Future.wait lebih sederhana dan langsung, cukup dengan memberikan daftar Future yang ingin diselesaikan, 
 membuatnya lebih mudah dipahami dan digunakan dalam kasus sederhana.
 
+output soal 9
+![Secreenshot yuda1](image/W11-soal9.png)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
