@@ -29,6 +29,12 @@ sedangkan Langkah 5 dan 6 Implementasi lebih lengkap dengan penanganan error dan
 setelah memencet tombol GO! langsunng muncul angka 6 setelah 3 detik lebih cepat dari sebelumnya
 ![Secreenshot yuda1](image/W11-soal7.png)
 
+soal 8
+Langkah 1 Menggunakan FutureGroup lebih kompleks dan menawarkan kontrol lebih besar atas pengelolaan beberapa Future,
+namun membutuhkan lebih banyak kode dan langkah-langkah tambahan.
+Langkah 4 Menggunakan Future.wait lebih sederhana dan langsung, cukup dengan memberikan daftar Future yang ingin diselesaikan, 
+membuatnya lebih mudah dipahami dan digunakan dalam kasus sederhana.
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
